@@ -12,7 +12,7 @@ use uuid::Uuid;
 use crate::cluster::topology::{NodeDistance, NodeState};
 use crate::cluster::{ConnectionManager, Murmur3Token, NodeInfo};
 use crate::error::{Error, Result};
-use crate::frame::Frame;
+// use crate::frame::Frame;
 use crate::transport::CdrsTransport;
 
 /// Metadata about a Cassandra node in the cluster, along with a connection.
